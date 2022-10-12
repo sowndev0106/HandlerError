@@ -1,0 +1,14 @@
+### test app
+GET  http://localhost:3000
+
+
+### division correct
+GET http://localhost:3000/division?a=1&b=2
+
+
+### division errors null
+GET http://localhost:3000/division
+
+
+### division errors can't division 0
+GET http://localhost:3000/division?a=1&b=0

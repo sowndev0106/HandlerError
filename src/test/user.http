@@ -1,0 +1,23 @@
+
+### add user error type sex
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name":"son",
+    "sex":"123"
+}
+
+
+### add user
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name":"son",
+    "sex":true
+}
+
+### get by ID
+GET http://localhost:3000/users/6346739dc32a17785c1289fb HTTP/1.1
+content-type: application/json
